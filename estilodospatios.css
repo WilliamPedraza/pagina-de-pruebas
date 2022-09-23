@@ -1,0 +1,493 @@
+/* aspecto general */
+* {
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+  }
+  ul {
+    margin: 1px;
+  }
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  h1 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+  }
+  h2 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+  }
+  h3 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  h4 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  h5 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  h6 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  #mainimage {
+    width: 100%;
+    filter: brightness(0.80);
+  }
+  #sanidad {
+    margin-top: -250px;
+    margin-bottom: 110px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 35 60 35 60px;
+    justify-content: space-around;
+    background-color: #F3EFEF32;
+    text-align: center;
+    color: #F3EFEF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+  }
+  .container {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  .spacer {
+    margin: 15%;
+  }
+  .shortspacer {
+  margin: 5%;
+  }
+  /* menu */
+  header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(#000000, #6470AB); 
+  }
+  .logo {
+    width: 150px;
+  }
+  .menu {
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    color: #F3EFEF;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .menu:hover {
+    text-decoration: underline;
+    color: #AD77A7;
+    font-weight: bold;
+    font-size: 18px;
+    }
+  .socials {
+    width: 35px;
+    margin: 5px;
+  }
+  .socials:hover {
+    width: 45px;
+  }
+    /* pie de pagina */
+    footer {
+      justify-content: center;
+    }
+    #upperfooter {
+      background-color: #6470AB;
+      width: 100%;
+      height: 155px;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 4%;
+      padding-right: 4%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+
+    }
+    #contactsection {
+      text-align: center;
+    }
+    .medioscontacto {
+      font-family: 'Raleway', sans-serif;
+      font-size: 14px;
+      color: #000000;
+    }
+    .medioscontacto:hover {
+      color: #F3EFEF;
+    }
+    #underfooter {
+      width: 100%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-right: 6%;
+      background-color: #AD77A7;
+      height: 45px;
+      display: flex;
+      justify-content: right;
+    }
+    .footerlogo {
+      width: 150px;
+      margin-top: 15px;
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+    #reservedrights {
+      padding-left: 10%;
+      padding-right: 30%;
+    }
+    .socials-f {
+      width: 25px;
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+  /* contenido pagina inicio */
+  #sliderpromos {
+    width: 30%;
+  }
+  .infoinicio {
+    width: 35%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #titlequienessomos {
+    width: 50%;
+  }
+  #imgquienessomos {
+    width: 50%;
+  }
+  #textquienessomos {
+    width: 100%;
+    margin: 2%
+  }
+  #titlemision {
+    width: 30%;
+  }
+  #imgmision {
+    width: 30%;
+  }
+  #textmision {
+    width: 70%;
+    margin: 1%;
+  }
+  #lista-servicios {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+  }
+  .cuadroservicio {
+    width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4%;
+    border-style: groove;
+    text-align: center;
+  }
+  .titleservices {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #resumeroom {
+    width: 40%;
+    margin: 2%;
+  }
+  .habitacion {
+    width: 23%;
+    margin: 1%;
+  }
+  .iconservices {
+    width: 60px;
+  }
+  .nikte-kaslem {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nikte-kaslem-img {
+    width: 30%;
+    margin: 25%;
+  }
+  #spadelalma {
+    width: 70%;
+  }
+  #rightmenu {
+    width: 25%;
+    background-color: #F3EFEF;
+    padding: 1%;
+    filter: drop-shadow(4px 2px 2px #000000);
+  }
+  /*contenido pagina habitaciones*/
+  .habitaciones {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .cuarto {
+    width: 33.333%;
+    margin: 20px;
+  }
+  .fotocuarto {
+    width: 100%;
+  }
+  .infocuarto {
+    background: linear-gradient(#6470AB, #F3EFEF);
+    display: flex;
+  }
+  .titlecuarto {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .listaamenidades {
+    font-size: 12px;
+  }
+  .amenidades {
+    background-color: #BCDFCD;
+    filter: drop-shadow(8px 3px 3px);
+    width: 60%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .servicios {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  .iconosservicios {
+    width: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .vercuarto {
+    background-color: #AD77A7;
+    padding: 10px;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+    color: #F3EFEF;
+  }
+  /*contenido pagina kaslem*/
+  .kaslemreapertura {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .reaperturamedidas {
+    width: 33%;
+    margin: 3%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+  }
+  #kaslemlogo {
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 25%;
+    }
+  #kaslem-baño {
+    width: 325px;
+  }
+  .quienessomos {
+    width: 50%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 4%;
+    background: linear-gradient(#BCDFCD, #F3EFEF);
+    filter: drop-shadow(7px 6px 7px #6470AB);
+    text-align: center;
+  }
+  #img-quienessomos {
+    width: 50%;
+    margin: 5%;
+  }
+  #img-amenidades {
+    width: 500px;
+  }
+  /*contenido pagina nikte*/
+  .nikte {
+    display: flex;
+  }
+  .c-holistico {
+    width: 25%;
+    margin: 2%;
+  }
+  #abuelofuego {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  #oracion {
+    width: 60%;
+  }
+  .imagenesfuego {
+    width: 20%;
+    margin: 2%;
+  }
+  .imgnikte {
+    width: 100%;
+  }
+  #actividades {
+    width: 40%;
+    margin: 5%;
+    padding: 3%;
+    background: linear-gradient(#BCDFCD, #F3EFEF);
+    filter: drop-shadow(7px 6px 7px #6470AB);
+  }
+  #calendario {
+    width: 60%;
+    margin: 7%;
+    padding: 3%;
+  }
+  /*contenido pagina que hacer*/
+
+  /*contenido pagina galeria*/
+  #virtualtour {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+  .galery {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+  }
+  .galeryimg {
+    width: 33.333%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  /*contenido pagina contacto*/
+  .contacto {
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 4%;
+  }
+  #contactform {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #formulario {
+    background-color: #F3EFEF;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(7px 6px 7px #6470AB);
+    display: grid;
+    grid: 90px;
+    align-items: center;
+  }
+  label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+  }
+  input {
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px #000000;
+    background-color: #BCDFCD;
+  }
+  textarea {
+    width: 350px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px #000000;
+    background-color: #BCDFCD;
+  }
+  ::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  button {
+    background-color: #AD77A7;
+    border: none;
+    width: 75px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /*Contenido páginas habitación*/
+  #galeriahabitacion {
+    width: 45%;
+    margin-top: 6%;
+    margin-right: 3%;
+  }
+  #imghabitacion {
+    width: 100%;
+  }
+  #reservar {
+    width: 55%;
+    margin: 2%;
+  }
+  #aboutroom {
+    background: linear-gradient(#6470AB, #F3EFEF);
+    filter: drop-shadow(7px 6px 7px #000000);
+    padding: 5%;
+    border-style: line;
+    border: 1px;
+    border-color: #000000;
+  }
+  #infoextra {
+    display: flex;
+  }
+  .serv-amen {
+    width: 35%;
+    border-right: solid 3px #000000;
+    padding: 7px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+  }
+  #reservaya {
+    width: 30%;
+    padding: 7px;
+    justify-content: center;
+    text-align: center;
+  }
